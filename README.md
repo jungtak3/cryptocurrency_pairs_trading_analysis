@@ -1,6 +1,4 @@
-# 암호화폐 페어 트레이딩 분석
 
-Saji T.G. (2021) 논문 기반 암호화폐 페어 트레이딩 전략 구현체임.
 
 ## 설치
 
@@ -20,7 +18,8 @@ pip install -r requirements.txt
 
 ### 기본 분석
 ```bash
-python examples/generate_reports.py
+python examples/analyze_custom_dates.py 20191231
+python examples/analyze_custom_dates.py 20250430
 ```
 
 ### 커스텀 날짜 분석
